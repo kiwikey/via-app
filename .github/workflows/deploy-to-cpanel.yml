@@ -19,9 +19,6 @@ jobs:
       - name: Install
         run: bun install
 
-      - name: Refresh keyboard definitions
-        run: bun run refresh-kbs
-
       - name: Build
         run: bun run build
 
